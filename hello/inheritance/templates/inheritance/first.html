@@ -1,0 +1,11 @@
+{% extends "inheritance/layout.html" %}
+
+{% block tytul %}
+Pierwszy
+{% endblock %}
+
+{% block cialo %}
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores corporis dolorem est eveniet ipsa minus quis, quisquam ratione reprehenderit! Assumenda commodi harum numquam, odit omnis quam rem sapiente ut voluptate.
+<br>
+Przejdź do strony <a href="{% url 'inheritance:second'%}">drugiej</a>
+{% endblock %}
