@@ -43,6 +43,9 @@ INSTALLED_APPS = [
     'links',
     'inheritance',
     'formapp1',
+    'formapp2',
+    'formapp3',
+    'formapp4',
 ]
 
 MIDDLEWARE = [

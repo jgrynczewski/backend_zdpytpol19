@@ -6,17 +6,11 @@
 </head>
 <body>
 
-    <form method="GET">
+    <form action="{% url 'formapp3:tasks_list' %}" method="POST">
+        {% csrf_token %}
         <input type="text" name="task">
         <input type="submit" value="Zarejestruj">
     </form>
 
-    <br/>
-    <h2>Zadania do zrealizowania:</h2>
-    <ul>
-    {% for task in tasks %}
-        <li>{{ task }}</li>
-    {% endfor %}
-    </ul>
 </body>
 </html>

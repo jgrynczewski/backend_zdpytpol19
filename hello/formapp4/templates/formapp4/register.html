@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rejestracja zadań</title>
+</head>
+<body>
+    <form action="{% url 'formapp4:tasks_list' %}" method="POST">
+        {% csrf_token %}
+        <input type="text" name="task">
+        <input type="submit" value="Rejestruj">
+    </form>
+</body>
+</html>
