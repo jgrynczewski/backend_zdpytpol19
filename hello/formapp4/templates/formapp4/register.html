@@ -5,7 +5,7 @@
     <title>Rejestracja zadań</title>
 </head>
 <body>
-    <form action="{% url 'formapp4:tasks_list' %}" method="POST">
+    <form method="POST">
         {% csrf_token %}
         <input type="text" name="task">
         <input type="submit" value="Rejestruj">
