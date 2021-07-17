@@ -49,6 +49,7 @@ INSTALLED_APPS = [
     'crudapp',
     'form',
     'golden_thoughts',
+    'classapp',
 ]
 
 MIDDLEWARE = [
