@@ -32,4 +32,5 @@ urlpatterns = [
     path('formapp4/', include('formapp4.urls')),
     path('crudapp/', include('crudapp.urls')),
     path('form/', include('form.urls')),
+    path('golden-thoughts/', include('golden_thoughts.urls')),
 ]
